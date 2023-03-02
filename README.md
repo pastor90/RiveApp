@@ -1,4 +1,13 @@
 # RiveApp
 
-1. Wireframe in Figma
-2. 
+done
+- Wireframe in Figma
+- default style css
+- basic html structure
+- navBar
+
+
+
+to-do
+- shari: s1
+- manuel: s2
