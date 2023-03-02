@@ -160,20 +160,3 @@
 header {
   width: 100vw;
 }
-
-.navigation {
-  display: flex;
-}
-
-.nav_ul {
-  display: flex;
-  list-style: none;
-}
-
-.nav_item {
-  display: flex;
-}
-
-.header_button {
-  display: flex;
-}
