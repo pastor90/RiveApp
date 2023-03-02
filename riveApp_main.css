@@ -33,6 +33,10 @@
   color: #ffffff;
 }
 
+.body {
+  margin: 0 15vw;
+}
+
 .font1 {
   font-family: "Inter";
   font-weight: 500;
