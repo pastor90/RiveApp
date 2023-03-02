@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 :root{
     background-color: black;
     color: #CCCCCC;
@@ -8,19 +14,33 @@ header{
     width: 100vw;
 }
 
-.navigation{
+header div{
+    text-decoration: none;
     display: flex;
 }
 
-.nav_ul{
+header a{
+    text-decoration: none;
+    
+}
+
+nav{
+    display: flex;
+    margin: 24px 0px;
+    justify-content: space-between;
+}
+
+nav ul{
     display: flex;
     list-style: none; 
+    gap: 25px;
+    align-items: center;
 }
 
-.nav_item{
-    display: flex;
+.nav_logo{
+    margin: 19px 25px 19px 0px;
 }
 
-.header_button{
-    display: flex;
+header button{
+   
 }
