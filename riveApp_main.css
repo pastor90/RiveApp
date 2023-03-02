@@ -160,3 +160,8 @@
 header {
   width: 100vw;
 }
+
+.s2a__container {
+  display: flex;
+  justify-content: center;
+}
