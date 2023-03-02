@@ -1,7 +1,153 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+
 :root{
     background-color: black;
     color: #CCCCCC;
     
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.font1 {
+    font-family: 'Inter';
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.font2 {
+    font-family: 'Inter';
+    font-size: 60px;
+    letter-spacing: -2.4px;
+    background: linear-gradient(64deg, #75C3FF 0%, #FF5C9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.font3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: -0.8px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.font4 {
+    color: #CCCCCC;
+}
+
+.font5 {
+    font-weight: 600;
+    color: #F1F1F1;
+}
+
+.font6 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.2px;
+    background: linear-gradient(87deg, #8FD6FF 0%, #8A80FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.font7 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: -0.8px;
+    color: #F1F1F1;
+}
+
+.font8 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.font9 {
+    font-weight: 600;
+}
+
+.font10 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.font11 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: -0.8px;
+    color: #F1F1F1;
+}
+
+.font12 {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #F1F1F1;
+}
+
+.font13 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.font14 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    color: #F1F1F1;
+}
+
+.font15 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: -0.2px;
+}
+
+.font16 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A82481;
+}
+
+.font17 {
+    font-weight: 500;
+    text-decoration-line: underline;
+    color: #999999;
+    opacity: 0.5;
 }
 
 header{
