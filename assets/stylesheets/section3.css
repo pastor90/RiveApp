@@ -1,60 +1,66 @@
 .section2__wrapper {
-    align-items: center;
-    background-color: #111;
-    display: flex;
-    flex: none;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: center;
-    padding: 60px 30px;
+  align-items: center;
+  background-color: #111;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  padding: 60px 30px;
 }
 
 .s3a__container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .s3a__logos {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    max-width: 558px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 558px;
+  flex-wrap: wrap;
 }
 
 .s3b__container {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 30px;
 }
 
 .s3b__container > a {
-    background-color: rgb(38, 38, 38);
-    border-radius: 16px;
-    box-shadow: rgb(0 0 0 / 5%) 0px 8px 16px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px;
-    gap: 12px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    max-width: 25vw;
-    align-self: baseline;
+  background-color: rgb(38, 38, 38);
+  border-radius: 16px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 8px 16px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px;
+  gap: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  max-width: 25vw;
+  align-self: baseline;
 }
 
 .s3b__container article {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.s3c__canvas{
-    vertical-align: top;
-    width: 1000px;
-    height: 360px;
-    background: #98347A;
-    border-radius: 20px;
+.s3c__canvas {
+  vertical-align: top;
+  width: 1000px;
+  height: 360px;
+  background: #98347a;
+  border-radius: 20px;
+  background-image: url("../images/animation.png");
+}
+
+.s3c__canvas:hover {
+  background-color: blue;
+  background-image: url("../images/animation.gif");
 }
