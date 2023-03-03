@@ -29,12 +29,24 @@
 .s3b__container {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 30px;
 }
 
 .s3b__container > a {
     background-color: rgb(38, 38, 38);
     border-radius: 16px;
     box-shadow: rgb(0 0 0 / 5%) 0px 8px 16px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px;
+    gap: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    max-width: 25vw;
+    align-self: baseline;
+}
+
+.s3b__container article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
