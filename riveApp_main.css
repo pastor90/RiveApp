@@ -166,6 +166,8 @@ h1 {
 
 header {
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 header div {
@@ -177,10 +179,20 @@ header a {
   text-decoration: none;
 }
 
+.header_wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
 nav {
   display: flex;
   margin: 24px 0px;
   justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  max-width: 1000px;
 }
 
 nav ul {
@@ -214,6 +226,7 @@ nav ul {
   left: 1036px;
   top: 498px;
   background: linear-gradient(#ff4080, #ee34a1);
+  border: none;
 }
 
 .s1a_button2 {
@@ -224,17 +237,17 @@ nav ul {
   top: 604px;
   border-radius: 30px;
   background: #262626;
+  border: none;
 }
-.s1b_section{
+.s1b_section {
   display: flex;
   justify-content: center;
-
 }
 
 .s1b_wrapper {
   display: flex;
   display: grid;
-  grid-template-columns: repeat(3,minmax(50px,1fr));
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
   gap: 30px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -276,7 +289,7 @@ nav ul {
   flex-direction: column;
   gap: 29px;
   width: 100%;
-    height: 100%;
+  height: 100%;
 }
 
 .s1b_wrapper_wrapper_button {
@@ -286,5 +299,5 @@ nav ul {
   width: 313px;
   left: 1147px;
   top: 1158px;
-  
+  border: none;
 }
