@@ -1,17 +1,33 @@
-.s2a__container {
-  display: flex;
+.s2a__container,
+.s2b__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
   gap: 30px;
+  overflow: hidden;
+  padding: 60px 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.s2a__container {
   background: radial-gradient(
     77.6% 94.7% at 81.2% 50%,
     rgb(61, 63, 138) 0%,
     rgb(29, 29, 29) 100%
   );
-  padding: 30px;
 }
 
-.s2a__container > div,
-.s2b__container > div {
-  flex: 1;
+.s2b__container {
+  background: radial-gradient(
+    55.7% 88.6% at 21.5% 50%,
+    rgb(52, 16, 61) 0%,
+    rgb(29, 29, 29) 100%
+  );
+}
+
+.s2a__left, .s2b__left {
+  justify-self: end;
 }
 
 .s2a__left,
@@ -19,11 +35,8 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.s2a__right,
-.s2b__left {
-  display: flex;
+  max-width: 80%;
+  justify-content: center;
 }
 
 .s2a__right img {
@@ -44,6 +57,7 @@
   display: flex;
   margin-right: auto;
   gap: 5px;
+  max-width: 80%;
 }
 
 .s2a__left a,
@@ -58,34 +72,19 @@
   padding: 15px 25px;
 }
 
-.s2b__container {
-  background: radial-gradient(
-    55.7% 88.6% at 21.5% 50%,
-    rgb(52, 16, 61) 0%,
-    rgb(29, 29, 29) 100%
-  );
-  width: 100%;
-  display: flex;
-  padding: 30px;
+.s2a__grid {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
   gap: 30px;
-}
-
-.s2b__left {
-  display: flex;
-  gap: 30px;
-  flex-flow: row wrap;
-  place-content: center;
-  width: 100%;
   align-items: self-end;
 }
 
-.s2b__left > a {
+.s2a__grid > a {
   display: flex;
   flex: 0 0 auto;
   flex-flow: column nowrap;
   gap: 10px;
   text-decoration: none;
-  width: min-content;
 }
 
 .icon img {
@@ -98,4 +97,8 @@
     rgb(86, 86, 184) 0%,
     rgb(217, 115, 186) 100%
   );
+}
+
+#last-icon {
+  grid-column-start: 2;
 }
