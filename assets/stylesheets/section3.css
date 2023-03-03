@@ -28,7 +28,7 @@
 
 .s3b__container {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-columns: auto 1fr auto;
     gap: 30px;
 }
 
