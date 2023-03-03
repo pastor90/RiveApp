@@ -63,6 +63,7 @@
 
 .font4 {
   color: #cccccc;
+  text-decoration: none;
 }
 
 .font5 {
@@ -157,6 +158,11 @@
   opacity: 0.5;
 }
 
+h1 {
+  display: flex;
+  text-align: center;
+}
+
 header {
   width: 100vw;
 }
@@ -185,4 +191,50 @@ nav ul {
 
 .nav_logo {
   margin: 19px 25px 19px 0px;
+}
+
+.s1a_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.s1a_logo {
+  margin: 40px;
+}
+
+.s1a_h2 {
+  margin: 38px 0px 77px 0px;
+}
+
+.s1a_button1 {
+  border-radius: 30px;
+  width: 153px;
+  height: 43px;
+  left: 1036px;
+  top: 498px;
+  background: linear-gradient(#ff4080, #ee34a1);
+}
+
+.s1a_button2 {
+  margin-top: 63px;
+  width: 308px;
+  height: 33px;
+  left: 1114px;
+  top: 604px;
+  border-radius: 30px;
+  background: #262626;
+}
+
+.s1b_video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0px 0px;
+  display: block;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0);
+  object-position: 50% 50%;
+}
+
+.s1b_figCaption {
+  text-decoration: none;
 }
