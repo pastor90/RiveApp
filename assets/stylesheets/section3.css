@@ -50,3 +50,11 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.s3c__canvas{
+    vertical-align: top;
+    width: 1000px;
+    height: 360px;
+    background: #98347A;
+    border-radius: 20px;
+}
